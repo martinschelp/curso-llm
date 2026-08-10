@@ -30,3 +30,4 @@ chroma_pdf/
 chroma_pdf_lc/
 chroma_pdf_semantico/
 RAG/pdf/docs/*.pdf
+.DS_Store
