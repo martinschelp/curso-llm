@@ -22,6 +22,10 @@ gensim==4.4.0
 umap-learn==0.5.12
 bertviz==1.4.1
 
+# --- Cliente de Ollama (modelos locales, ej: gemma) ---
+# Requiere tener Ollama instalado aparte: https://ollama.com
+ollama==0.6.2
+
 # --- Soporte Jupyter (para correr el notebook localmente) ---
 ipykernel==7.3.0
 nbclient==0.11.0

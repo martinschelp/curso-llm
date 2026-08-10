@@ -22,7 +22,7 @@ import ollama
 sys.stdout.reconfigure(encoding="utf-8")
 
 EMBED_MODEL = "nomic-embed-text"
-CHAT_MODEL = "gemma3"
+CHAT_MODEL = "gemma4:12b" # cambia el tag segun lo que tengas descargado (ej: gemma3:1b, gemma2:9b)
 COLLECTION_NAME = "clase_rag_demo"
 TOP_K = 2
 

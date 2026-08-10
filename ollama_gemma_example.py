@@ -2,7 +2,7 @@
 Ejemplo minimo de uso de Ollama con el modelo Gemma.
 
 Requisitos previos:
-    1. Tener Ollama instalado y corriendo (https://ollama.com)
+    1. Tener Ollama instalado holy corriendo (https://ollama.com)
     2. Descargar el modelo:  ollama pull gemma3
     3. Instalar el cliente python:  pip install ollama
 """
@@ -13,7 +13,7 @@ import ollama
 
 sys.stdout.reconfigure(encoding="utf-8")  # evita errores al imprimir tildes/emojis en la consola de Windows
 
-MODEL = "gemma3"  # cambia el tag segun lo que tengas descargado (ej: gemma3:1b, gemma2:9b)
+MODEL = "gemma4:12b"  # cambia el tag segun lo que tengas descargado (ej: gemma3:1b, gemma2:9b)
 
 
 def chat_simple(prompt: str) -> str:
