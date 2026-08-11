@@ -50,7 +50,7 @@ try:
 except Exception:
     pass
 
-CHAT_MODEL = "gemma3"
+CHAT_MODEL = "gemma4:12b" # cambia el tag segun lo que tengas descargado (ej: gemma3:1b, gemma2:9b)
 MAX_INTENTOS = 3  # salvavidas: corta el ciclo aunque el critico no apruebe
 
 # Un unico LLM local, reutilizado por el generador y el critico.
